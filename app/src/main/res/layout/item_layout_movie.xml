@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="movieModel"
+            type="com.snystudio.themovielist.model.DiscoverMovie" />
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/rel_menu_sugest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#99000000"
+            android:layout_alignParentBottom="true"
+            >
+            <TextView
+                android:id="@+id/title_menu_sugest_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="text"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="8dp"
+                android:layout_centerInParent="true"
+                android:paddingBottom="20dp"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/menu_sugest_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:layout_centerInParent="true"
+            />
+
+
+    </RelativeLayout>
+
+</layout>
